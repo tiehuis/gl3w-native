@@ -1,0 +1,12 @@
+[package]
+name = "gl3w-native"
+version = "0.1.0"
+authors = ["Marc Tiehuis <marctiehuis@gmail.com>"]
+
+[profile.release]
+lto = true
+panic = 'abort'
+
+[dependencies]
+hyper = "0.9.11"
+regex = "0.1.80"
